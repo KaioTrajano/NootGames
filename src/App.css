@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.main{
+  background: url("/Group\ 3\ \(1\).png");
+  width: 100%;
+  height: 4400px;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Rubik';
+  background-repeat: no-repeat;
+  
+}
+
+
+
+nav ul li:hover{
+  border-bottom: 3px solid #00DD7D;
+  transition: .5s;
+}
+
+
+.buttondark{
+ 
+ 
+    border-radius: 15px;
+    padding: 14px 25px 14px 25px;
+    background: #033434;
+    color: #50ECE9;
+    border: none;
+    font-weight: 600;
+
+    
+  
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  
+  
+ 
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  
+ 
+}
+
+ul li{
+  border-bottom: 3px solid transparent;
+  list-style: none;
+  margin-right: 30px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: #E4F0F2;
+}
+
+.logo img{
+  width: 135px;
+  height: 41px;
+
+  
+  
+}
+
+
+.logo{
+  padding-left: 20px;
+}
+
+button{
+  font-family: 'Rubik';
+  cursor: pointer;
+}
+
+button:hover{
+  transform: scale(1.1);
+ transition: .3s;
+ color: white;
+}
+
+button:not(:hover){
+  transform: scale(1.0);
+ transition: .3s;
+ 
+}
+
+.botao{
+  background: #50ECE9;
+box-shadow: 0px 0px 0px rgba(0, 221, 125, 0.32);
+border-radius: 15px;
+border: none;
+font-weight: bold;
+color: #003939;
+padding-left: 15px;
+padding-right: 15px;
+height: 40px;
+margin-right: 20px;
+cursor: pointer;
+
+}
+
+#cadastro{
+  text-align: center;
+  margin-top: 150px;
+ 
+}
+
+.cadastroinf{
+  width: 400px;
+  margin: 0 auto;
+  
+}
+
+#cadastro h1{
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 40px;
+  color: #00DD7D;
+  margin-bottom: 10px;
+}
+
+#cadastro span{
+ 
+}
+
+span{
+  color: #76B1BC;
+}
+
+#cadastro button{
+  margin-top: 20px;
+  border-radius: 15px;
+  padding: 14px 25px 14px 25px;
+  background: #50ECE9;
+  border: none;
+  font-weight: 600;
+  
+}
+
+#patrocinadores{
+  
+}
+
+h2{
+
+  font-family: "Anton";
+  font-weight: 400;
+  font-size: 40px;
+  color: #00DD7D;
+  text-align: center;
+}
+
+.box{
+  
+  border-radius: 80px;
+  background: #E4F0F2;
+  width: 650px;
+  height: 300px;
+  margin: 150px auto;
+  border-top-left-radius: 0px;
+  padding: 90px;
+  padding-top: 50px;
+  display: flex;
+}
+
+.box h2{
+  font-family: "Anton";
+  color: #033434;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 10px;
+  
+}
+
+.marcas{
+  height: 350px;
+  width: 300px;
+ margin-left: auto;
+ display: grid;
+ grid-template-columns: 150px 150px;
+ gap: 15px;
+ justify-content: center;
+}
+
+.marcas div{
+  display: flex;
+  border-radius: 5px;
+  background-color: #DDE8EA;
+  width: 150px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+
+
+.patrociniosinf{
+
+  width: 36%;
+  text-align: left;
+  
+}
+
+.patrociniosinf h2{
+
+  
+  text-align: left;
+  
+}
+
+.AOSon{
+  
+ margin-left: 0px;
+ margin-right: 0px;
+ opacity: 1;
+ transition: 1s;
+
+}
+
+.AOSoff{
+ margin-left: -30%;
+ opacity: 0;
+}
+
+#beneficios{
+  margin-top: -80px;
+  
+ 
+  
+  
+}
+
+.title{
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  
+}
+
+.title h2{
+  margin-bottom: 0px;
+}
+
+.itensbox{
+  margin-top: 50px;
+display: grid;
+grid-template-columns: 300px 300px;
+gap: 30px;
+justify-content: center;
+padding-bottom: 100px ;
+
+}
+
+.itensbox div{
+  width: 250px;
+  height: 110px;
+  border: #00DD7D 2px solid;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.itensbox span{
+  font-size: 19px;
+  padding-left: 25px;
+  color: white;
+  
+}
+
+.itensbox div:first-child, div:nth-child(5){
+  border-top-left-radius: 0px;
+}
+
+.itensbox div:nth-child(2), div:nth-child(6){
+  border-top-right-radius: 0px;
+}
+
+.itensbox div:nth-child(3){
+  border-bottom-left-radius: 0px;
+}
+
+.itensbox div:nth-child(4){
+  border-bottom-right-radius: 0px;
+}
+
+
+
+#greensection{
+margin-top: 180px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#greensection button{
+  margin-top: 50px;
+}
+
+.greensectioninf{
+  width: 370px;
+  text-align: left;
+  margin-right: 0 auto;
+}
+
+.greensectioninf h2{
+  color: #033434;;
+  text-align: left;
+}
+
+.greensectioninf span{
+  color: white;
+  
+}
+
+.spandiv{
+  width: 320px;
+}
+
+.greensectionimage{
+  width: 40%;
+  margin-left: -130px;
+  
+  
+}
+
+.greensectionimage img{
+  width: 100%;
+}
+
+.moreinf{
+  margin-top: 250px;
+  display: flex;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  flex-direction: column;
+  
+ 
+}
+
+.moreinf h2{
+  text-align: left;
+}
+
+.box1{
+  align-self: flex-start;
+  margin-left: -100%;
+  opacity: 0;
+}
+
+.box2{
+  margin-top: 100px;
+  justify-content: end;
+  align-self: flex-end;
+  margin-right: -10%;
+  opacity: 0;
+
+  
+}
+
+.box2active{
+  margin-top: 100px;
+  justify-content: end;
+  align-self: flex-end;
+  
+  opacity: 1;
+  transition: 1s;
+
+}
+
+footer{
+  
+  
+  margin: 20vh auto;
+  height: 350px;
+  width: 80%;
+  text-align: center;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/Group\ 5.png");
+  
+  
+
+}
+
+.footerbox{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
+
+footer h2{
+  color: #033434;;
+  text-align: left;
+}
+
+footer button{
+  vertical-align: middle;
+float: right;
+margin-top: 10%;
+margin-right: 15%;
+    
+
+  
+}
+
+
+#menubutton{
+  display: none;
+}
+
+footer button{
+  width: 250px;
+}
+
+#sobre button{
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 1290px){
+  .main{
+    background: url("/Group\ 3\ \(1\).png");
+    width: 100%;
+    height: 4500px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .main{
+    background: url("/Group\ 3\ \(1\).png");
+    width: 100%;
+    background-size: cover;
+    background-position: left;
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+  }
+}
+
+
+
+@media only screen and (max-width: 900px){
+ 
+  .main{
+    background: url("/Group\ 3\ \(1\).png");
+    width: 100%;
+    
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+  }
+
+  #sobre button{
+   margin: 40px auto;
+  }
+
+  .greensectioninf{
+    width: 470px;
+    text-align: left;
+    margin-right: 0 auto;
+  }
+
+
+  #greensectioninf br{
+    display: none;
+    
+    }
+
+  footer{
+    
+    margin: 20vh auto;
+    height: 160px;
+    width: 95%;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/Group\ 5.png");
+    
+   
+  }
+
+  .footerbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  footer button{
+   margin-left: 100px;
+   margin-top: 100px;
+   font-size: 10px;
+   
+  }
+
+
+  nav ul{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-left: 0px;
+    margin: 80px auto;
+    transition: 1s;
+  
+    
+   
+  }
+
+
+  nav ul li{
+    margin-right: 0px;
+    padding-top: 5px;
+  }
+
+
+  a{
+    
+    color: unset;
+  }
+
+  nav ul li:hover{
+    background-color: #00DD7D;
+    padding-top: 5px;
+    color: white;
+
+    
+   
+  }
+
+  .teste2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    
+  }
+
+
+
+
+  #menubutton{
+    display: block;
+   cursor: pointer;
+  }
+
+  nav button{
+    display: none;
+  }
+
+  .moreinf{
+    margin-top: 350px;
+    display: flex;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+
+  .moreinf br{
+    display: none;
+  }
+
+  .moreinf h2{
+    text-align: center;
+  }
+
+  .greensectioninf h2{
+  
+    text-align: center;
+  }
+
+  .spandiv{
+   width: 100%;
+  }
+
+
+  .greensectioninf br{
+    display: none;
+  }
+  
+
+  .greensectioninf{
+
+    text-align: center;
+   
+  }
+
+  .greensectionimage{
+    margin-top: -110px;
+    margin-left: 0;
+    
+    
+  }
+
+  #greensection{
+    margin-top: 300px;
+   flex-direction: column;
+    
+    }
+
+    .greensectionimage{
+      width: 400px;
+      
+    }
+
+
+  .box{
+  
+    border-radius: 80px;
+    background: #E4F0F2;
+    width: 350px;
+    height: 650px;
+    margin: 130px auto;
+    border-top-left-radius: 0px;
+    padding: 20px;
+    padding-top: 20px;
+    flex-direction: column;
+  
+    
+    
+  }
+
+  .patrociniosinf{
+    text-align: center;
+    width: 100%;
+    text-align: left;
+    
+  }
+
+  .marcas{
+    
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+   
+  }
+
+  .itensbox{
+    margin-top: 50px;
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 100px ;
+  
+  }
+
+  .main{
+   
+    width: 100%;
+    height: 6000px;
+    background-size: cover;
+    
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+   
+  }
+
+
+
+
+}
+
+@media only screen and (max-width: 550px){
+
+  .main{
+    background: url("/Group\ 3\ \(1\).png");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+  }
+
+
+.box{
+  border-radius: 10px;
+  background: #E4F0F2;
+  width: 300px;
+  height: 650px;
+  margin: 130px auto;
+  border-top-left-radius: 0px;
+  padding: 20px;
+  padding-top: 20px;
+  flex-direction: column;
+}
+  
+
+  footer button{
+    width: 200px;
+    
+    margin-top: 80px;
+    margin-left: 100px;
+  }
+
+#beneficios{
+  margin-top: 50px;
+ 
+}
+
+.title{
+ width: 80%;
+}
+
+.cadastroinf{
+  
+  width: 80%;
+}
+
+#cadastro h1{
+  font-size: 25px;
+}
+
+  h2{
+
+    
+    font-size: 25px;
+   
+  }
+
+  .greensectioninf {
+    width: 80%;
+   
+    
+  }
+
+  .greensectioninf h2 {
+    font-size: 20px;
+  }
+}
+
+
+
+@media only screen and (min-width: 1800px){
+
+
+
+
+.box{
+  margin-top: 250px;
+}
+
+
+  footer{
+
+    width: 55%;
+  }
+
+  footer button{
+    width: 250px;
+  }
+
+  .box2{
+    margin-top: 250px;
+    
+  }
+
+  .moreinf{
+    margin-top: 350px;
+    
+   
+  }
+
+  #greensection{
+    margin-top: 650px;
+   
+    }
+
+  .main{
+    background: url("/Group\ 3\ \(1\).png");
+    width: 100%;
+    height: 5400px;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Rubik';
+    background-repeat: no-repeat;
+    
+  }
+}
+
+
+
