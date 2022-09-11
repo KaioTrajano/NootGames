@@ -70,15 +70,19 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## Cloning the Repository
-First, navigate to the directory that you would like to clone the repository into using commands like:
+
+1- First, navigate to the directory that you would like to clone the repository into using commands like:
 cd: to change your working directory.
-cd ../ to "go back" a level in your directory tree.
-Next, clone the remote repository and create a local copy on your machine using this command:
-git clone https://github.com/KaioTrajano/NootGames.git
-Now you can see the contents of the remote repository on your machine by moving into the newly cloned directory:
+cd ../ to "go back" a level in your directory tree.<br>
+
+2- Next, clone the remote repository and create a local copy on your machine using this command:
+git clone https://github.com/KaioTrajano/NootGames.git <br>
+
+3- Now you can see the contents of the remote repository on your machine by moving into the newly cloned directory:
 cd b575f19/
-ls -la
-Updating Your Local Repository
+ls -la <br>
+
+## Updating Your Local Repository
 When changes are made to the remote repository, they will not automatically sync with your local copy. You can update your local directory by running the following command when your working directory is b575f19. You can check your working directory by running pwd, the last item in the path should be b575f19/.
 
 To update your local git directory:
