@@ -8,46 +8,15 @@ import Clientes from './Clientes'
 import Funcionalidades from './Funcionalidades';
 import Informacoes from './Informacoes';
 import Sobre from './Sobre';
+import Aos from 'aos';
+import "aos/dist/aos.css"
 
 
 
-document.addEventListener("scroll", event =>{
 
- console.log(window.pageYOffset)
-
- if(window.pageYOffset >= 1000){
-   let beneficios = document.getElementById("beneficios")
-   
-    beneficios.classList.remove("AOSoff")
-    beneficios.classList.add("AOSon")
-
-   
- }
- if(window.pageYOffset >= 2100){
-  let greensection = document.getElementById("greensection")
-  
-   greensection.classList.remove("AOSoff")
-   greensection.classList.add("AOSon")
-
-  
+function Aosanimation(){
+  Aos.init({duration:2000})
 }
-
-if(window.pageYOffset >= 2700 && window.pageYOffset < 2800 ){
-  let box1 = document.querySelector(".box1")
-  
-   box1.classList.remove("box1")
-   box1.classList.add("AOSon")
-}
-
- if(window.pageYOffset > 3200){
-  let box2 = document.querySelector(".box2")
-  
-   box2.classList.remove("box2")
-   box2.classList.add("box2active")
-}
-
-})
-
 
 
 function menuactive(){
@@ -63,6 +32,9 @@ function menuactive(){
 
 
 function App() {
+
+  Aosanimation()
+
   return (
     <div className='app'>
 
