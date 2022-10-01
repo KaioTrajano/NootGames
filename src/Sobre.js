@@ -1,7 +1,7 @@
 function Sobre(){
     return (
         <section id='sobre' className='moreinf'>
-        <div className='box1'>
+        <div data-aos="fade-left" className='box1'>
          <div className='moreinftitle'><h2>SOMOS UMA<br></br> EXTENSÃO EM<br></br> LOREM IPSUM.</h2>
          <div className='spandiv'>
          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
@@ -10,7 +10,7 @@ function Sobre(){
          </div>
          </div>
          </div>
-         <div className='box2'>
+         <div data-aos="fade-right" className='box2'>
          <div className='moreinftitle'><h2>SOMOS UMA<br></br> EXTENSÃO EM<br></br> LOREM IPSUM.</h2>
          <div className='spandiv'>
          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
