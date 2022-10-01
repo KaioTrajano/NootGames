@@ -224,19 +224,7 @@ h2{
   
 }
 
-.AOSon{
-  
- margin-left: 0px;
- margin-right: 0px;
- opacity: 1;
- transition: 1s;
 
-}
-
-.AOSoff{
- margin-left: -30%;
- opacity: 0;
-}
 
 #beneficios{
   margin-top: -80px;
@@ -337,7 +325,7 @@ align-items: center;
 
 .greensectionimage{
   width: 40%;
-  margin-left: -130px;
+  
   
   
 }
@@ -362,16 +350,16 @@ align-items: center;
 
 .box1{
   align-self: flex-start;
-  margin-left: -100%;
-  opacity: 0;
+  
+  
 }
 
 .box2{
   margin-top: 100px;
   justify-content: end;
   align-self: flex-end;
-  margin-right: -10%;
-  opacity: 0;
+  
+ 
 
   
 }
