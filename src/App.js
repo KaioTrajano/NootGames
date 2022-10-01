@@ -44,7 +44,7 @@ function App() {
          <img src='https://svgshare.com/i/mUa.svg'></img>
         </div>
         <ul id='list'>
-          <li><AnchorLink href='#patrocionios'>HOMEa</AnchorLink></li>
+          <li><AnchorLink href='#patrocionios'>HOME</AnchorLink></li>
           <li><AnchorLink href='#sobre'>SOBRE</AnchorLink></li>
           <li><AnchorLink href='#beneficios'>FUNCIONALIDADES</AnchorLink></li>
           <li><AnchorLink href='#patrocionios'>CLIENTES</AnchorLink></li>
