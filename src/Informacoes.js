@@ -1,7 +1,7 @@
 function Informacoes(){
     return (
-        <section id='greensection' className='AOSoff'>
-       <div className='greensectionimage'>
+        <section data-aos="fade-left"  id='greensection' className='AOSoff'>
+       <div  className='greensectionimage'>
         <img src='https://i.ibb.co/HB2bvPB/Flitterkatzen-Mount-1.png'></img>
        </div>
        <div className='greensectioninf'><h2>TUDO É FEITO<br></br> EM LOREM IPSUM <br></br> SEM PROBLEMA ALGUM.

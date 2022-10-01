@@ -1,6 +1,6 @@
 function Funcionalidades(){
     return(
-        <section id='beneficios' className='AOSoff'>
+        <section data-aos="fade-up" id='beneficios' className='AOSoff'>
         <div className='title'>
         <h2>PROTEÇÃO PARA ATAQUES DE LOREM IPSUM.</h2>
         <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
