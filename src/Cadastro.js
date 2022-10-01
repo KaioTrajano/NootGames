@@ -1,6 +1,6 @@
 function Cadastro(){
     return (
-        <section id='cadastro'>
+        <section data-aos="zoom-in" id='cadastro'>
         <div className='cadastroinf'>
         <h1>LOREM IPSUM E MAIS QUE UM TEXTO SALVA VIDAS.</h1>
          <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
