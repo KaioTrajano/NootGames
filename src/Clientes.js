@@ -1,6 +1,6 @@
 function Clientes(){
     return(
-        <section id='patrocionios'>
+        <section data-aos="zoom-in" id='patrocionios'>
 
        <div className='box'>
 
